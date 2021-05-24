@@ -9,6 +9,16 @@ int main (int argc, char *argv)
         scanf("%s", &value);
         printf("Hello %s ! Let's  go on an adventure!\n Shall I randomly choose a planet for you to explore?", value);
 
+	scanf("%s", &YesorNo);
+
+        if(YesorNo == 'Y') {
+            printf("Jupiter");
+        }
+        else {
+            printf("Okay, I will no choose one.\n Name the planet you would like to visit:");
+        }
+
+
         return 0;
 }
 
