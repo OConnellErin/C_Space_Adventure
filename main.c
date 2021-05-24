@@ -15,16 +15,21 @@ int main (int argc, char *argv)
             printf("Jupiter");
         }
         else {
+            userPlanet();
+        }
+
+
+//end of monolithic approach!
+        return 0;
+}
+
+
+void
+userPlanet() {
             printf("Okay, I will no choose one.\n Name the planet you would like to visit:");
             char planet = ' ';
             scanf("%s", &planet);
             printf("Cool! Taking you to %s now!", planet);
 
-        }
 
-
-//end of monolithic approach!
-
-        return 0;
 }
-
