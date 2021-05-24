@@ -48,6 +48,6 @@ userPlanet() {
             char planet = ' ';
             scanf("%s", &planet);
             printf("Cool! Taking you to %s now!", planet);
-
-
 }
+
+//end of cookbook approach!
