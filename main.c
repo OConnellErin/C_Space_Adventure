@@ -12,7 +12,7 @@ int main (int argc, char *argv)
 	scanf("%s", &YesorNo);
 
         if(YesorNo == 'Y') {
-            printf("Jupiter");
+            randomPlanet();
         }
         else {
             userPlanet();
@@ -23,6 +23,11 @@ int main (int argc, char *argv)
         return 0;
 }
 
+
+void
+randomPlanet() {
+	printf("Jupiter");
+}
 
 void
 userPlanet() {
