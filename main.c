@@ -1,9 +1,13 @@
 //main.c  by Erin O'Connell
 // C Space Adventure
+#include <stdio.h>
 
-int main (int argc, char *argv) 
+int main (int argc, char *argv)
 {
-//empty main goes in here
 
-	return EXIT_SUCESS;
+        printf("Greetings!\n\n Welcome to the Solar System!\n\n There are nine planets to explore. \n\n What is your$
+
+
+        return 0;
 }
+
