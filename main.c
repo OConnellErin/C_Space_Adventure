@@ -6,16 +6,7 @@ int main (int argc, char *argv)
 {
 	greeting();
         getName();
-        printf("Shall I randomly choose a planet for you to explore?", value);
-
-	scanf("%s", &YesorNo);
-
-        if(YesorNo == 'Y') {
-            randomPlanet();
-        }
-        else {
-            userPlanet();
-        }
+        askForPlanet();
 
         return 0;
 }
@@ -32,7 +23,20 @@ getName() {
 	printf("Hello %s ! Let's  go on an adventure!\n");
 }
 
+void
+askForPlanet() {
 
+        printf("Shall I randomly choose a planet for you to explore?", value);
+
+        scanf("%s", &YesorNo);
+
+        if(YesorNo == 'Y') {
+            randomPlanet();
+        }
+        else {
+        	userPlanet();
+	}
+}
 void
 randomPlanet() {
 	printf("Jupiter");
