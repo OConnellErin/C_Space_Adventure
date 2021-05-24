@@ -17,8 +17,6 @@ int main (int argc, char *argv)
             userPlanet();
         }
 
-
-//end of monolithic approach!
         return 0;
 }
 
