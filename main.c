@@ -16,6 +16,10 @@ int main (int argc, char *argv)
         }
         else {
             printf("Okay, I will no choose one.\n Name the planet you would like to visit:");
+            char planet = ' ';
+            scanf("%s", &planet);
+            printf("Cool! Taking you to %s now!", planet);
+
         }
 
 
