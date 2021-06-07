@@ -104,6 +104,10 @@ void neptune() {
         printf("Arrived at Neptune! A very cold planet, furthest from the sun.");
 }
 
+void pluto() {
+	printf("Arrived at Pluto! I don't care what they say - it's a planet.");
+}
+
 
 
 
