@@ -61,8 +61,6 @@ askForPlanet() {
     else {
         userPlanet();
     }
-
-
 }
 
 void
@@ -73,6 +71,11 @@ getName() {
     printf("Hello %s ! Let's  go on an adventure!\n", name);
 
 }
+
+void mercury(){
+        printf("Arrived at Mercury! "A very hot planet, closest to the sun.\n");
+}
+
 
 
 int main (int argc, char *argv)
