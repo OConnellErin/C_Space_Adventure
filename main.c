@@ -92,6 +92,11 @@ void jupiter(){
         printf("Arrived at Jupiter! A gas giant, with a noticeable red spot."); 
 }
 
+void saturn() {
+        printf("Arrived at Saturn! This planet has beautiful rings around it.");
+}
+
+
 
 
 int main (int argc, char *argv)
