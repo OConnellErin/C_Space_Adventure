@@ -23,6 +23,31 @@ userPlanet() {
     scanf("%s", planet);
     printf("Cool! Taking you to %s now!\n", planet);
 
+    if (planet == "MERCURY") {
+        mercury();
+    }
+    else if(planet == "VENUS") {
+        venus();
+    }
+    else if (planet == "MARS") {
+        mars();
+    }
+    else if (planet == "JUPITER") {
+        jupiter();
+    }
+    else if (planet == "SATURN") {
+        saturn();
+    }
+    else if (planet == "URANUS") {
+        uranus();
+    }
+    else if (planet == "NEPTUNE") {
+        neptune();
+    }
+    else if (planet == "PLUTO") {
+        pluto();
+    }
+
 }
 
 void
