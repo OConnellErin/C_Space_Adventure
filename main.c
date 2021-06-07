@@ -100,6 +100,10 @@ void uranus() {
         printf("Arrived at Uranus! Strangely, this planet rotates around on its side."); 
 }
 
+void neptune() {
+        printf("Arrived at Neptune! A very cold planet, furthest from the sun.");
+}
+
 
 
 
