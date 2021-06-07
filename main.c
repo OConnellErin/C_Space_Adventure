@@ -73,7 +73,11 @@ getName() {
 }
 
 void mercury(){
-        printf("Arrived at Mercury! "A very hot planet, closest to the sun.\n");
+        printf("Arrived at Mercury! A very hot planet, closest to the sun.\n");
+}
+
+void venus(){
+        printf("Arrived at Mercury! It's very cloudy here!");
 }
 
 
