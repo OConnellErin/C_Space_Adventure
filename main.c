@@ -12,7 +12,37 @@ greeting() {
 
 void
 randomPlanet() {
-        printf("Jupiter");
+        srand(time(0));
+        int num = rand();
+        if (num < 800){
+          mercury();
+        }
+        else if (num < 1600) {
+          venus();
+        }
+	else if (num < 2000) {
+          earth();
+        }
+	else if (num < 2800) {
+          mars();
+        }
+	else if (num < 3200) {
+          jupiter();
+        }
+	else if (num < 3800) {
+          saturn();
+        }
+	else if (num < 4400) {
+          uranus();
+        }
+	else if( num < 5000) {
+          neptune();
+        }
+	else {
+          pluto();
+        }
+
+
 }
 
 void
