@@ -77,7 +77,11 @@ void mercury(){
 }
 
 void venus(){
-        printf("Arrived at Mercury! It's very cloudy here!");
+        printf("Arrived at Venus! It's very cloudy here!");
+}
+
+void earth() {
+	printf("Arrived at Earth! There is something very familiar about this planet.");
 }
 
 
