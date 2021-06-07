@@ -96,6 +96,10 @@ void saturn() {
         printf("Arrived at Saturn! This planet has beautiful rings around it.");
 }
 
+void uranus() {
+        printf("Arrived at Uranus! Strangely, this planet rotates around on its side."); 
+}
+
 
 
 
