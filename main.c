@@ -1,15 +1,3 @@
-  GNU nano 4.9.3                                                   main.c                                                   Modified
-
-
-
-
-
-
-
-
-
-
-
 //main.c  by Erin O'Connell
 // C Space Adventure
 #include <stdio.h>
