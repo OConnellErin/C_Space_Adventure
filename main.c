@@ -84,6 +84,10 @@ void earth() {
 	printf("Arrived at Earth! There is something very familiar about this planet.");
 }
 
+void mars(){
+	printf("Arrived at Mars! Known as the red planet."); 
+}
+
 
 
 int main (int argc, char *argv)
