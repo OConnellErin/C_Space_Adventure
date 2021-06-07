@@ -88,6 +88,10 @@ void mars(){
 	printf("Arrived at Mars! Known as the red planet."); 
 }
 
+void jupiter(){
+        printf("Arrived at Jupiter! A gas giant, with a noticeable red spot."); 
+}
+
 
 
 int main (int argc, char *argv)
