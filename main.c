@@ -22,31 +22,37 @@ userPlanet() {
     char planet[20] = "";
     scanf("%s", planet);
     printf("Cool! Taking you to %s now!\n", planet);
+    //toupper(planet[0]);
 
-    if (planet == "MERCURY") {
+    if (planet == "Mercury") {
         mercury();
     }
-    else if(planet == "VENUS") {
+    else if(planet == "Venus") {
         venus();
     }
-    else if (planet == "MARS") {
+    else if(planet == "Earth") {
+        earth();
+    }
+    else if (planet == "Mars") {
         mars();
     }
-    else if (planet == "JUPITER") {
+    else if (planet == "Jupiter") {
         jupiter();
     }
-    else if (planet == "SATURN") {
+    else if (planet == "Saturn") {
         saturn();
     }
-    else if (planet == "URANUS") {
+    else if (planet == "Uranus") {
         uranus();
     }
-    else if (planet == "NEPTUNE") {
+    else if (planet == "Neptune") {
         neptune();
     }
-    else if (planet == "PLUTO") {
+    else if (planet == "Pluto") {
         pluto();
     }
+
+
 
 }
 
