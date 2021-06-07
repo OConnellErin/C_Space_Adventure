@@ -1,7 +1,9 @@
 //main.c  by Erin O'Connell
 // C Space Adventure
-#include <stdio.h>
+#include "stdio.h"
 #include "main.h"
+#include "planetarySystem.json"
+
 
 void
 greeting() {
